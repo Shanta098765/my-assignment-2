@@ -59,3 +59,211 @@ nav li a{
 .banner-image img{
     width: 570px;
 }
+/* our plants styles */
+
+.plants-title h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1.00);
+    max-width: 1140px;
+    height: 68px;
+    /* margin-top: -80px; */
+}
+.plants-title p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.50);
+    width: 888px;
+    height: 53px;
+    margin:16px 126px 100px ;
+}
+.plants{
+    width: 1140px;
+    height: 1185.88px;
+    margin: 120px auto;
+    text-align: center;
+}
+/* flower box styles */
+.flower-box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    
+}
+.flower-item{
+    text-align: center;
+    margin-top: -50px;
+    
+}
+.flower-item img{
+    width: 270px;
+    height: 322px;
+    margin: 20px 0px;
+}
+.flower-box{
+    max-width: 270px;
+    height: 484px;
+}
+.flower-item h3{
+    color: rgba(17, 17, 17, 1.00);
+    font-size: 22px;
+    font-weight: 500;
+}
+.flower-item h2{
+    color: rgba(17, 17, 17, 1.00);
+    font-size: 22px;
+    font-weight: 700;
+}
+.flower-item button{
+    width: 270px;
+    height: 50px;
+    margin: 30px 0px;
+    /* padding: 26px 50px; */
+    background-color: rgba(233, 90, 8, 1.00);
+    color: rgba(255, 255, 255, 1.00);
+}
+/* Flower & Plants Lover */
+ 
+.flower-lover{
+    max-width: 1140px;
+    height: 597px;
+    /* gap: 60px; */
+    margin:211px auto;
+    /* position: relative; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+.container-img{
+    width: 100%;
+    height: 100%;
+    position: static;
+
+}
+.logo-img-love{
+    max-width: 286px;
+    top: 2100px;
+    left: 700px;
+
+    position: absolute;
+    /* margin: -120px 200px; */
+    /* transform: translate(-50%, -50%); */
+    
+}
+.container-title{
+    width: 540px;
+    height: 519px;
+    /* margin: 10px 20px; */
+}
+.container-title h1{
+    width: 540px;
+    height: 147px;
+    font-size: 50px;
+    font-weight: 700;
+    gap: 20px;
+
+}
+.container-title h1 span{
+    display: block;
+}
+.container-title ul li{
+    font-size: 22px;
+    list-style:disc;
+    font-weight: 400;
+    max-width: 540px;
+    margin: 20px 0;
+    color:  rgba(0, 0, 0, 0.5);;
+} 
+ 
+/* deals-title */
+
+.container-deal{
+    max-width: 1140px;
+    text-align: center;
+    margin: auto;
+}
+.container-deal h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.container-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1140px;
+    margin: 121px auto;
+    gap: 25px;
+    
+}
+.container-deal p{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.big-box a{
+    text-decoration: underline;
+}
+.big-box{
+    width: 753px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+
+.box-grid h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.box-grid .ancor{
+    color: white;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+
+.colorful-image{
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 533px;
+    margin: 120px auto;
+    padding: 199px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.btn-4{
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+.colorful-image h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+.colorful-image input[type=text] {
+    background-color: white;
+    padding: 10px;
+    width: 644px;
+    height: 50px;
+    /* width: 50%; */
+}
+.colorful-image input[type="submit"]{
+    position: absolute;
+    background-color:#E95A08 ;
+    padding: 13px;
+    top: 0;
+    right: -218px;
+
+}
